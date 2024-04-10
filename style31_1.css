@@ -58,7 +58,7 @@
     font-family: kalam;
 }
 .matter2 {
-    text-align: center;  /Center text horizontally/ 
+    text-align: center;  /*Center text horizontally*/ 
     margin-top: 35px;  /*Add space from the top */
     position:relative;
     top:20px;
@@ -89,7 +89,7 @@
     /* line-height: 2px; */
     animation: fadeIn 1s ease forwards; /* Apply fadeIn animation */
     /* width: 1500px; */
-    /line-height: 1;/ /* Increased line height for better readability */
+    /*line-height: 1;*/ /* Increased line height for better readability */
     padding: 0 20px; /* Added padding for spacing */
     font-family: kalam;
 }

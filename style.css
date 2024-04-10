@@ -1,0 +1,238 @@
+*{
+  margin:0px;
+    box-sizing: border-box;
+}
+.Website_Name {
+    height: 400px;
+    width: 1600px;
+    background-color: rgb(239, 174, 184);
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f0f0f0; /* Background color of the header */
+  padding: 10px 20px; /* Adjust padding as needed */
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+nav ul li.signin {
+  margin-left: auto; /* Move the Signin link to the far right */
+}
+nav ul li {
+  margin-left: 100px; /* Adjust spacing between menu items */
+}
+
+nav ul li:first-child {
+  margin-left: 0; /* Remove margin for the first menu item */
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333; /* Color of the menu items */
+  padding: 5px 10px; /* Adjust padding as needed */
+  border-radius: 5px; /* Optional: Add rounded corners to menu items */
+}
+
+nav ul li a:hover {
+  background-color: skyblue; /* Background color of the menu item on hover */
+}
+.img {
+    opacity: 0.2;
+    transform:scaleX(-1);
+    position: relative;
+    bottom:155px;
+    right:60px;
+}
+.name{
+    position:relative;
+    top:30px;
+    left:22px;
+    font-size: 75px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:white;
+}
+.quote{
+    position: relative;
+    bottom:5px;
+    left: 140px;
+    font-family: 'YourCursiveFont', cursive;
+    font-size:20px;
+    color:black;
+}
+.quote {
+  animation: fadeIn 5s;
+  -webkit-animation: fadeIn 5s;
+  -moz-animation: fadeIn 5s;
+  -o-animation: fadeIn 5s;
+  -ms-animation: fadeIn 5s;
+  position:relative;
+  top:140px;
+  font-size:30px;
+}
+
+.fade-in-text {
+    animation: fadeIn 5s;
+    -webkit-animation: fadeIn 5s;
+    -moz-animation: fadeIn 5s;
+    -o-animation: fadeIn 5s;
+    -ms-animation: fadeIn 5s;
+    font-size: 23px;
+    position:relative;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    top:10px;
+    left:550px;
+    color:skyblue;
+  }
+  .reviews-section{
+    text-align: center;
+  }
+  .person-1{
+    background-image: url("person1.jpg");
+    background-size: cover;
+  }
+  @keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-moz-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-o-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-ms-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  .Introduction{
+    display:inline-block;
+    font-size: 20px;
+    position:relative;
+    bottom: 97px;
+    left:7px;
+    font-family: 'YourCursiveFont', cursive;
+  }
+  .baby{
+    position: relative;
+    left:420px;
+    bottom:90px;
+    animation: babyanimate 5s;
+    -webkit-animation: fadeIn 5s;
+    -moz-animation: fadeIn 5s;
+    -o-animation: fadeIn 5s;
+    -ms-animation: fadeIn 5s;
+  }
+  @keyframes  babyanimate{
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-moz-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-o-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-ms-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  * {
+    padding:0px;
+    margin:0px;
+}
+.name{
+  height:95px;
+  width:95px;
+  background-color: skyblue;
+  border-radius: 50%;
+}
+.home{
+  font-size: 20px;
+}
+.about{
+  position:relative;
+  right:70px;
+  font-size: 20px;
+}
+.signin{
+  position:relative;
+  right:100px;
+  font-size: 20px;
+}
+.container {
+  display: flex; /* Use flexbox layout */
+}
+
+.column {
+  width: 25%; /* Each column takes up 25% of the container width */
+  height: 100vh; /* Each column spans the full height of the viewport */
+  background-color: rgb(236, 236, 236); /* Background color for columns */
+  border: 1px solid black; /* Border for columns (optional) */
+  box-sizing: border-box; /* Include border in width calculation */
+}
+
+.sarah{
+  position: relative;
+  left: 35px;
+  width: 300px;
+}
+.nam{
+  text-align: center;
+}
+
+.description{
+  text-align: center;
+  font-size: large;
+  margin: 25px;
+
+}
+#header{
+  height:80px;
+  background-color: rgb(239, 174, 184);
+  margin:0px;
+  width:1700px;
+  text-align: center;
+  position:relative;
+  top:-20px;
+}
+
+.head{
+  text-align: center;
+  font-size: 35px;
+  position: relative;
+  top: 17px;
+  right: 90px;
+
+}
+.end {
+  background-color: #f8f8f8;
+  padding: 20px;
+  text-align: center;
+  font-size:20px;
+}

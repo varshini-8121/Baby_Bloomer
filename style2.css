@@ -1,0 +1,105 @@
+* {
+    padding:0px;
+    margin:0px;
+}
+.logo{
+    text-align: right;
+    position: relative;
+    top:10px;
+    right:-40px;
+    font-size: 20px;
+}
+@media screen and (max-width:600px){
+    .column{
+      width:100%;
+    }
+  }
+@font-face{
+    font-family: satisfy;
+    src:url("Satisfy-Regular.ttf");
+  }
+  @font-face{
+    font-family: kalam;
+    src:url("Kalam-Regular.ttf");
+  }
+
+#navbar{
+    height:65px;
+    background-color: pink;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top:-10px;
+    right:300px;
+    width:1830px;
+    justify-content: space-evenly;
+}
+.fo{
+    color:black;
+    position: relative;
+    top: 15px;
+    font-size: 25px;
+    margin-left:250px;
+}
+.content {
+    font-size:30px;
+    color:black;
+    font-family: kalam;
+    position: relative;
+    top:-20px;
+}
+.ex{
+    display:inline-block;
+    color:black;
+    position: relative;
+    top: 15px;
+    font-size: 25px;
+}
+.med{
+    display:inline-block;
+    color:black;
+    position: relative;
+    top: 15px;
+    font-size: 25px;
+}
+.ta{
+    display:inline-block;
+    color:black;
+    position: relative;
+    top: 15px;
+    font-size: 25px;
+}
+.avoid{
+    display:inline-block;
+    color:black;
+    position: relative;
+    top: 15px;
+    font-size: 25px;
+}
+
+a{
+    text-decoration:none;
+}
+.im1 {
+    width: 250px;
+    height: 300px;
+    background-image: url(img1.jpg);
+    background-size: cover;
+    position: relative;
+    top:-40px;
+    animation: moveAnimation 1s linear 0s 1 forwards; /* changed iteration count to "forwards" */
+}
+
+@keyframes moveAnimation {
+    0% {
+        left: 0; /* starting position */
+    }
+    100% {
+        left: calc(100vw - 250px); /* end position (right side of the viewport minus image width) */
+    }
+}
+@keyframes moveAnimation{
+    from{left:0px;}
+    to{left:900px;}
+}
+

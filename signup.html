@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <div class="container">
+        
+        <p><big>Help Us Serve You Better: Provide Your Details</big></p>
+        <br/>
+        <form id="userForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br><br>
+            
+            <label for="age-group">Age Group:</label>
+            <select id="age-group" name="age-group" required>
+                <option value="">Select Age Group</option>
+                <option value="19 and below">19 and below</option>
+                <option value="20-29">20-29</option>
+                <option value="30-39">30-39</option>
+                <option value="40 and above">40 and above</option>
+            </select><br><br>
+            
+            <label for="trimester">Trimester:</label>
+            <select id="trimester" name="trimester" required>
+                <option value="">Select Trimester</option>
+                <option value="1st">1st</option>
+                <option value="2nd">2nd</option>
+                <option value="3rd">3rd</option>
+            </select><br><br>
+            
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

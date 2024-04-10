@@ -1,0 +1,187 @@
+* {
+    padding:0px;
+    margin:10px;
+}
+@media screen and (max-width:600px){
+    .column{
+      width:100%;
+    }
+  }
+@font-face{
+    font-family: satisfy;
+    src:url("Satisfy-Regular.ttf");
+  }
+  @font-face{
+    font-family: kalam;
+    src:url("Kalam-Regular.ttf");
+  }
+  .logo{
+    text-align: right;
+    position: relative;
+    top:2px;
+    right:-40px;
+    font-size: 20px;
+}
+#navbar{
+    height:70px;
+    background-color: pink;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    position:relative;
+    right:300px;
+    width:1830px;
+    top:-20px;
+}
+.main{
+    color:black;
+    position:relative;
+    top:10px;
+    font-family: satisfy;
+    text-align: center;
+}
+.fo{
+    color:black;
+    position: relative;
+    top: 6px;
+    font-size: 25px;
+}
+.matter { /* Center text horizontally */
+    margin-top: 35px; /* Add space from the top */
+    position:relative;
+    font-size:25px;
+    line-height: 50px;
+    animation: fadeIn 1s ease forwards; /* Apply fadeIn animation */
+    padding: 0 20px;
+    display: inline-block;
+    font-family: kalam;
+}
+.matter2 {
+    text-align: center;  /Center text horizontally/ 
+    margin-top: 35px;  /*Add space from the top */
+    position:relative;
+    top:20px;
+    color:black;
+    text-decoration: underline;
+    font-size:35px;
+    line-height: 50px;
+    animation: fadeIn 1s ease-in forwards;  /*Apply fadeIn animation */
+    padding: 0 20px;
+    font-family:  satisfy;
+}
+@keyframes fadeIn {
+    0% {
+        opacity: 0; /* Start with opacity 0 */
+        transform: translateY(-20px); /* Move text up slightly */
+    }
+    100% {
+        opacity: 1; /* End with opacity 1 */
+        transform: translateY(0); /* Reset translation */
+    }
+}
+
+.matter1 {
+    margin-top: 30px; /* Add space from the top */;
+    position:relative;
+    left: 20px;
+    font-size:25px;
+    /* line-height: 2px; */
+    animation: fadeIn 1s ease forwards; /* Apply fadeIn animation */
+    /* width: 1500px; */
+    /line-height: 1;/ /* Increased line height for better readability */
+    padding: 0 20px; /* Added padding for spacing */
+    font-family: kalam;
+}
+
+.heading {
+    color: red;
+    transition-property: all;
+    transition-duration: 3s; /* Adjust the duration as needed */
+    transition-timing-function: ease;
+    transition-delay: 0s;
+    text-align: center;
+    font-size: 50px;
+    position: relative;
+    top : 20px;
+}
+.ex{
+    display:inline-block;
+    color:black;
+    position: relative;
+    top: 6px;
+    font-size: 25px;
+}
+.med{
+    display:inline-block;
+    color:black;
+    position: relative;
+    top: 6px;
+    font-size: 25px;
+}
+.ta{
+    display:inline-block;
+    color:black;
+    position: relative;
+    top: 6px;
+    font-size: 25px;
+}
+.avoid{
+    display:inline-block;
+    color:black;
+    position: relative;
+    top: 6px;
+    font-size: 25px;
+}
+
+a{
+    text-decoration:none;
+}
+
+.image{
+    float: right;
+    position: relative;
+    right: 20px;
+    top: 35px;
+    width: 400px;
+    /* animation: fadeIn 1s ease forwards; */
+    height: 300px;
+    animation: moveAnimation 1s linear 0s 1 forwards; /* changed iteration count to "forwards" */
+}
+
+@keyframes moveAnimation {
+    0% {
+        left: 0; /* starting position */
+    }
+    100% {
+        left: calc(100vw - 250px); /* end position (right side of the viewport minus image width) */
+    }
+}
+@keyframes moveAnimation{
+    from{left:400px;}
+    to{left:20px;}
+}
+
+.video{
+    float: right;
+    position: relative;
+    top: 20px;
+}
+
+.image1{
+    float: right;
+    position: relative;
+    right: 20px;
+    top: 35px;
+    width: 350px;
+    /* animation: fadeIn 1s ease forwards; */
+    height: 300px;
+    animation: moveAnimation 1s linear 0s 1 forwards; /* changed iteration count to "forwards" */
+}
+.nu{
+    width:50px;
+    height: 50px;
+    float: right;
+    position: relative;
+    right: 640px;
+    bottom:32px;
+}

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style31_1.css">
+    <style>
+        .matter2 {
+            overflow: hidden;
+            white-space: nowrap;
+            animation: typing 3s steps(40, end);
+        }
+    
+        @keyframes typing {
+            from {
+                width: 0;
+            }
+            to {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="bgimg">
+    <div id="navbar">
+        <a class="fo" href="#food"><b>Nutrition</b></a>
+        <a class="ex" href="#ex"><b>Exercise</b></a>
+        <a class="med" href="#med"><b>Medication Safety</b></a>
+        <a class="ta" href="#ta"><b>Tips and Advice</b></a>
+        <a class="avoid" href="#avoid"><b>Don'ts</b></a>
+        <h5 class="logo"><big>👩🏻‍💼</big><span id="username"></span></h5>
+    <script src="script.js"></script>
+    <script>
+        var username = getParameterByName('username');
+        document.getElementById('username').textContent = username;
+        
+        // Function to extract parameter value from URL
+        function getParameterByName(name, url) {
+            if (!url) url = window.location.href;
+            name = name.replace(/[\[\]]/g, "\\$&");
+            var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+                results = regex.exec(url);
+            if (!results) return null;
+            if (!results[2]) return '';
+            return decodeURIComponent(results[2].replace(/\+/g, " "));
+        }
+    </script>
+
+    </div>
+    <h1 class="main">High-Risk Pregnancy- Age 31-40:</h1>
+    <li class="matter1">Pregnancy after age 40 is considered high-risk due to declining fertility and increased complications.
+    </li>
+    <li class="matter1">Higher chances of miscarriage, chromosomal abnormalities, and pregnancy-related complications are associated with advanced maternal age.
+    </li>
+    <li class="matter1">Assisted reproductive technologies like IVF may be necessary for conception, requiring close monitoring by healthcare professionals.
+    </li>
+    <li class="matter1">Despite challenges, many women in their 40s and 50s successfully deliver healthy babies with proper medical care.
+    </li>
+    <li class="matter1">Schedule prompt prenatal appointments and discuss pregnancy plans with partners and healthcare providers.</li>
+    <li class="matter1">Prioritize self-care, including healthy lifestyle choices and stress management techniques.</li>
+    <li class="matter1">It's a time to weigh the risks and benefits of pregnancy, explore alternative family-building options, and prioritize overall health.
+    </li>
+    <p class="matter2"><a id="food"></a><b>Nutrition</b></p>
+    <p class="matter">During pregnancy, it's important to maintain a well-balanced diet to ensure both the mother and baby receive adequate nutrition.
+        While there are certain foods that are generally recommended throughout pregnancy, specific dietary needs may vary slightly during each trimester. Here's a general guideline for foods to consider during each trimester:
+    </p>
+    <p class="matter1">Access available resources and support networks tailored to high-risk pregnancies for guidance and assistance.</p>
+    </div>
+    <img src="food.jpeg" width="300px" class="image" alt="food">
+    <li class="matter1">Focus on nutrient-dense foods that provide energy and support the baby's final growth and development.</li>
+    <li class="matter1">Increase intake of fiber-rich foods (such as fruits, vegetables, whole grains, legumes) to help prevent constipation.</li>
+    <li class="matter1">Include foods rich in magnesium (such as nuts, seeds, whole grains, leafy greens) to support muscle function and bone development.</li>
+    <li class="matter1">Consume sources of vitamin K (such as leafy greens, broccoli, Brussels sprouts) to support blood clotting.</li>
+    <li class="matter1">Incorporate foods high in antioxidants (such as berries, nuts, seeds, colorful vegetables) to support overall health and immunity.</li>
+    <li class="matter1">Stay hydrated by drinking plenty of water and consuming hydrating foods like fruits and vegetables.</li>
+    <li class="matter1">Throughout pregnancy, it's important to listen to your body and make dietary choices that make you feel good. Consult with a healthcare provider or a registered dietitian for personalized dietary recommendations based on your individual needs and circumstances.</li>
+    <p class="matter2"><a id="ex"><b>Exercise</b></a></p>
+    <p class="matter">Exercise plays a vital role in maintaining physical and mental well-being during pregnancy. Incorporating short, effective exercises into your routine can help alleviate common pregnancy discomforts, such as back pain and fatigue, while also improving circulation, strength, and flexibility. From gentle stretches to low-impact cardio, these exercises are designed to support your changing body and prepare you for the demands of childbirth.
+         Discover the power of movement and embrace the benefits of staying active throughout your pregnancy journey.</p>
+         <img src="yoga1.jpg" width="300px" class="image" alt="yoga">
+    <li class="matter1">Focus on maintaining regular physical activity if you were active before pregnancy.</li>
+    <li class="matter1">Recommended exercises include walking, swimming, prenatal yoga, and light strength training.</li>
+    <li class="matter1">Avoid exercises that involve lying flat on your back after the first trimester.</li>
+    <li class="matter1">Listen to your body and avoid overexertion. If you experience nausea or fatigue, take breaks as needed.</li>
+    <li class="matter1">Incorporate a variety of exercises to promote cardiovascular health, strength, and flexibility.</li>
+    <li class="matter1">Engage in activities such as brisk walking, swimming, strength training, and prenatal Pilates or yoga.</li>
+    <li class="matter1">Listen to your body and adjust exercise intensity as needed. Stay hydrated and avoid overheating.</li>
+
+    <p class="matter2"><a id="med"><b>Medication Safety</b></a></p>
+    <p class="matter">Medication during pregnancy requires careful consideration to ensure the safety of both mother and baby. It's crucial to consult healthcare providers before taking any medication,
+         including over-the-counter drugs and supplements.Open communication with healthcare professionals helps ensure the healthiest outcomes for both mother and baby.</p>
+         <img src="medi.jpeg" class="image" alt="medication">
+    <li class="matter1">This period is crucial for fetal development, and certain medications can pose risks to the developing baby.</li>
+    <li class="matter1">Generally, it's advisable to avoid unnecessary medications during the first trimester, especially if they're <br> not essential for maternal health.</li>
+    <li class="matter1">If medication is necessary, consult with a healthcare provider to ensure it's safe for pregnancy.</li>
+    <li class="matter1">Women in their 20s should carefully consider medication use during pregnancy, especially during the first trimester when the baby's organs are developing.</li>
+    <li class="matter1">Consult with a healthcare provider to assess the safety of any medications, including prescription drugs, over-the-counter medications, and supplements.</li>
+
+    <p class="matter2"><a id="ta"><b>Tips and Advice</b></a></p>
+    <p class="matter">Tips and advice are crucial during pregnancy, contributing significantly to a safe and happy journey for both mother and baby.
+         From maintaining a nutritious diet to practicing self-care and seeking regular medical check-ups, these recommendations ensure a smooth and healthy pregnancy experience. 
+         By following these tips, expectant mothers can optimize their well-being and nurture a strong foundation for their baby's development.</p>
+         <img src="tips.jpeg" class="image1" alt="tips">
+         <li class="matter1">Focus on taking prenatal vitamins containing folic acid to support fetal development.</li>
+    <li class="matter1">Stay hydrated and eat a balanced diet rich in fruits, vegetables, lean proteins, and whole grains.</li>
+    <li class="matter1">Avoid alcohol, smoking, and illicit drugs, as they can harm the developing baby.</li>
+    <li class="matter1">Discuss any concerns or questions with a healthcare provider and attend prenatal appointments regularly.</li>
+    <li class="matter1">Women in their 20s should focus on establishing healthy habits and routines during pregnancy, including regular prenatal care and healthy lifestyle choices.</li>
+
+    <p class="matter2"><a id="avoid"><b>Don'ts</b></a></p>
+
+    <p class="matter">Pregnancy brings unknown challenges, but with informed decisions and essential tips, it can be navigated safely. By avoiding potential hazards and adopting 
+        healthy habits, expectant mothers can ensure a smoother, more enjoyable pregnancy for themselves and their babies</p>
+        <img src="smoke.jpeg" width="290px" class="image" alt="smo">
+        <li class="matter1">Avoid alcohol, smoking, and illicit drugs, as they can harm the developing baby and increase the risk of birth defects.</li>
+        <li class="matter1">Limit caffeine intake to 200 milligrams per day to reduce the risk of miscarriage and low birth weight.</li>
+        <li class="matter1">Avoid certain foods that may pose a risk of foodborne illness, such as unpasteurized dairy products, raw or undercooked meats, fish high in mercury, and deli meats.</li>
+        <li class="matter1">Consult with a healthcare provider before taking any medications, including over-the-counter drugs and supplements, to ensure they're safe for pregnancy.</li>
+        <li class="matter1">Women in their 20s should prioritize avoiding harmful substances such as alcohol, tobacco, and illicit drugs during pregnancy.
+        </li>
+        <li class="matter1">Be cautious with medications and supplements, and always consult with a healthcare provider before taking anything during pregnancy.
+        </li>
+        <li class="matter1">Practice safe sex to prevent sexually transmitted infections that can harm the baby or affect pregnancy outcomes.
+        </li>
+
+
+</body>
+
+</html>

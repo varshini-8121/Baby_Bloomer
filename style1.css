@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh; /* Set the body height to full viewport height */
+  background-image: url('https://i.pinimg.com/564x/b3/e4/88/b3e488ece44d7ef4a58834e6991e8ea6.jpg');
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: overlay;
+  background-color: rgba(255, 255, 255, 0.5); /* Adjust opacity here */
+  font-family: Arial, sans-serif; /* Adjust font family */
+}
+
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+p{
+  font-size:28px;
+}
+
+label, select, option,input {
+  font-size: 20px; /* Adjust the font size as needed */
+}
+header {
+  background-color: rgb(239, 174, 184);
+  padding: 20px;
+  text-align: center;
+  bottom:1000px
+}
+
+h1 {
+  margin: 0;
+  color: #333;
+}
+
+.about-section {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 0 20px;
+  text-align: justify;
+}
+
+.x{
+  font-size: 18px;
+  line-height: 1.6;
+  color: #666;
+}
+
+#contri{
+  display: flex;
+  flex-direction: row;
+  position:relative;
+  top:60px;
+  justify-content: space-evenly;
+  font-size: 20px;
+}

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style2.css">
+    <style>
+        .heading {
+            text-align: center;
+        }
+
+        .para {
+            color: red;
+            animation: slideIn 1s ease forwards;
+            opacity: 0;
+            position:relative;
+            top:12px;
+            font-family: satisfy;
+        }
+
+        @keyframes slideIn {
+            from {
+                opacity: 0;
+                transform: translateY(-50px);
+                font-size:10px;
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+                font-size:50px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="image">
+    <div id="navbar">
+        <a class="fo" href="#food"><b>Nutrition</b></a>
+        <a class="ex" href="#food"><b>Exercise</b></a>
+        <a class="med" href="#food"><b>Medication Safety</b></a>
+        <a class="ta" href="#food"><b>Tips and Advice</b></a>
+        <a class="avoid" href="#food"><b>Do's and Don'ts</b></a>
+        <h5 class="logo"><big>👩🏻‍💼</big><span id="username"></span></h5>
+    <script src="script.js"></script>
+    <script>
+        var username = getParameterByName('username');
+        document.getElementById('username').textContent = username;
+        
+        // Function to extract parameter value from URL
+        function getParameterByName(name, url) {
+            if (!url) url = window.location.href;
+            name = name.replace(/[\[\]]/g, "\\$&");
+            var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+                results = regex.exec(url);
+            if (!results) return null;
+            if (!results[2]) return '';
+            return decodeURIComponent(results[2].replace(/\+/g, " "));
+        }
+    </script>
+
+    </div>
+    
+    <div class="heading">
+    <p class="para">!!Not the right age for pregnancy!!</p>
+    </div>
+    <br> <br>
+    <p class="content"><a id="food"></a>Adolescence is a critical period of growth and development, impacting educational pursuits, career aspirations, and personal development.
+        Teenage bodies may not be fully prepared for pregnancy, increasing the risk of complications such as preterm birth and low birth weight.
+        Pregnant adolescents may face social and emotional challenges, including stigma, isolation, and financial strain.
+        Comprehensive sex education, access to contraception, and supportive resources are crucial for informed decision-making.
+        Seek immediate medical care and counseling for support and guidance.
+        Explore resources tailored to young mothers, such as educational programs and support groups.
+        Make informed decisions about the pregnancy considering personal readiness and future goals.
+        This condensed version retains the essential information while providing a more concise overview of the considerations for pregnant adolescents.
+    </p>
+    <br>
+    <div class="im1"></div>
+    <div class="im2"></div>
+    </div>
+</body>
+
+</html>

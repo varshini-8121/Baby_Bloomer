@@ -21,7 +21,6 @@
     top:2px;
     right:-40px;
     font-size: 20px;
-    margin-left:250px;
 }
 #navbar{
     height:70px;
@@ -46,6 +45,7 @@
     position: relative;
     top: 6px;
     font-size: 25px;
+    margin-left:250px;
 }
 .matter { /* Center text horizontally */
     margin-top: 35px; /* Add space from the top */
